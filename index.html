@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Aialla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="btn-musica" class="btn-audio" onclick="toggleMusica()">
+    <span id="icone-musica">🎵</span> Ouvir com música
+</button>
+
+<audio id="musica" loop>
+    <source src="Red Hot Chili Peppers - Californication (Official Music Video) [HD UPGRADE].mp3" type="audio/mpeg">
+</audio>
+        <h1>Para a pessoa mais especial...</h1>
+        <div id="card" class="card">
+            <h2 id="nome">Aialla</h2>
+            <p id="elogio">Passe o mouse ou clique para ver uma surpresa.</p>
+            <button onclick="mudarElogio()">Novo Elogio ✨</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
